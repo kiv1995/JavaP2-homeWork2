@@ -48,6 +48,11 @@ public class Main {
         shapeList.add(new circle(1,2,3.0));
         shapeList.add(new circle(1,2,3.2));
 
+        circle c1=new circle(1,2,3.1);
+        circle c2=new circle(1,2,3.0);
+
+        System.out.println(c1.equals(c2));
+
         shapeList.add(new triangle(1,2,1,2,3,4));
         shapeList.add(new triangle(1,2,2,3,4,5));
         shapeList.add(new triangle(1,2,5,6,7,8));
